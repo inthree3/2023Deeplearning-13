@@ -73,7 +73,7 @@ def preprocess_image(image, target_size):
 
 st.set_page_config(page_title="Look, Coco!", page_icon="🐕")
 
-st.title('2023 DeepLearning Project-13')
+st.title('2023 DeepLearning Project-8')
 file=st.file_uploader("반려견의 눈을 촬영해주세요. (눈 외에 다른 것이 나오지 않도록 해주세요.)", type=['jpg', 'png', 'jpeg'])
 
 if file is None:
